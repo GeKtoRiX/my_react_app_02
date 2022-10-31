@@ -1,0 +1,24 @@
+@use "../custom" as *;
+@use "./mixins" as *;
+// Шаблонные свойства контейнера с кнопками.
+.buttons-std {
+    // border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+// Шаблонные свойства кнопок в коннейнерах.
+.button-std {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1rem;
+    min-height: auto;
+    border-radius: 3px;
+    border: hidden;
+    margin: 0 0.1rem;
+    &:hover {
+        cursor: pointer;
+        background-color: beige;
+    }
+}
