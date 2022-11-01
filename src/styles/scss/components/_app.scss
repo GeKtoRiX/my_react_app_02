@@ -9,3 +9,19 @@
         font-size: 2rem;
     }
 }
+// React-router автоматически применяет селектор active к нажатым ссылкам в nav сегменте.
+.active {
+    color: darkorchid;
+} 
+
+nav {
+    margin: 2rem;
+    padding: 0.3rem;
+    font-size: 2rem;
+    background-color: khaki;
+    a {
+        margin-right: 25px;
+        color: black;
+        text-decoration: none;
+    }
+}
