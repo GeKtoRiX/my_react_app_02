@@ -5,23 +5,28 @@
     margin: 2rem;
     text-align: center;
     h1 {
-        margin-bottom: 2rem;
-        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-size: 3rem;
     }
-}
-// React-router автоматически применяет селектор active к нажатым ссылкам в nav сегменте.
-.active {
-    color: darkorchid;
-} 
+    nav {
+        margin-bottom: 2rem;
+        font-size: 2.5rem;
+        background-color: khaki;
+        a {
+            margin-right: 1.5rem;
+            color: #000000;
+            text-decoration: none;
+        }
+    }
 
-nav {
-    margin: 2rem;
-    padding: 0.3rem;
-    font-size: 2rem;
-    background-color: khaki;
-    a {
-        margin-right: 25px;
-        color: black;
+    .courseLink {
+        font-size: 2rem;
+        color: lightyellow;
         text-decoration: none;
+        text-size-adjust: 10px;
+        word-spacing: 2px;
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }

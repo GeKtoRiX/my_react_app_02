@@ -1,11 +1,5 @@
 const Home = () => {
-  return (
-    <>
-      <h1>Home</h1>
-      <p style={{ fontSize: "1.5rem" }}>
-        Information about the "Home" component is containing here...
-      </p>
-    </>
-  );
+  return <h2>Home</h2>;
 };
+
 export default Home;
