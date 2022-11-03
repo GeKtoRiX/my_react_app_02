@@ -29,7 +29,7 @@ function App() {
           <Route path="courses/:courseSlug" element={<SingleCourse />} />
           <Route path="about" element={<About />} />
           <Route path="contacts" element={<Contacts />} />
-          <Route path="*" element={<NotFound />} />
+          <Route  path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </div>
